@@ -1,0 +1,51 @@
+﻿@model Growing_Garden.Models.Plant
+
+@{
+    ViewBag.Title = "Plant Details";
+}
+
+<h2>Plant Details</h2>
+
+<table style="font-family:Arial">
+    <tr>
+        <td>
+            <b>Common Name: </b>
+        </td>
+        <td>
+            @Model.CommonName
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Scientific Name: </b>
+        </td>
+        <td>
+            @Model.SciName
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Bed Location: </b>
+        </td>
+        <td>
+            @Model.BedLocation
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Plant Time: </b>
+        </td>
+        <td>
+            @Model.PlantTime
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Bloom Time: </b>
+        </td>
+        <td>
+            @Model.BloomTime
+        </td>
+    </tr>
+</table>
+
